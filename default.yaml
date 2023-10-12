@@ -1,0 +1,13 @@
+---
+toc: true
+toc-own-page: true
+numbersections: true
+geometry: "left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm"
+papersize: a4
+lang: de-DE
+fontsize: 12pt
+indent: true
+csl: acm.csl
+bibliography: library.bib
+link-citations: true
+---
