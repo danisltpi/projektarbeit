@@ -2,6 +2,6 @@
   "name": "writing-template",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pdf": "pandoc --template=default.tex --citeproc -H header.tex default.yaml src/src.md -o dist/out.pdf"
   }
 }
