@@ -1,4 +1,6 @@
 ---
+title: Code Llama, a state-of-the-art large language model for coding
+author: Danh Thien Luu (79663)
 toc: true
 toc-own-page: true
 numbersections: true
@@ -8,6 +10,7 @@ lang: de-DE
 fontsize: 12pt
 indent: true
 csl: acm.csl
-bibliography: library.bib
+bibliography: zotero.bib
 link-citations: true
 ---
+
