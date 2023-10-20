@@ -25,7 +25,35 @@ und herunterladen
   - CodeLlama-13b-Instruct
   - CodeLlama-34b-Instruct
 
+- 7b, 13b, 34b ist die Anzahl an Parametern
+- instruction-following
+
+- developed by fine-tuning Llama 2 using a higher sampling of code (github readme)
+
+- Basically sind das verschiedene Varianten des Code Llama Modells, welches auf Llama 2 basiert und auf verschiedene Parameter oder auf einer unterschiedliche Menge von Daten trainiert sind und
+z.B. spezialisiert auf Python oder so
+
 - GitHub Repo: <https://github.com/facebookresearch/llama>
 
 - Ist es möglich es auch nicht lokal zu installieren? Es wird viel Speicherplatz
 benötigt
+
+- Code Llama ist nicht nur ein Sprachmodell, sondern eine Sprachfamillie
+von vielen Sprachmodellen (LLMs) basierend auf Llama 2
+
+- Code Llama is a code generation model built on Llama 2, trained on 500B tokens of code
+
+## Llama 2
+
+- Llama 2 ist die nächste Generation von open-source Large Language Models
+von Meta AI
+- 7 billion to 70 billion parameters
+- Llama Chat, which is optimized for two-way conversations and employs reinforcement learning from human feedback during training
+
+## Ollama
+
+## Perplexity Labs
+
+## Lokal
+
+## Leetcode questions
