@@ -50,10 +50,14 @@ von Meta AI
 - 7 billion to 70 billion parameters
 - Llama Chat, which is optimized for two-way conversations and employs reinforcement learning from human feedback during training
 
+## Lokal
+
+- Nicht möglich auf meinem Macbook Air M1
+
+- Alternativ: Google colab?
+
 ## Ollama
 
 ## Perplexity Labs
-
-## Lokal
 
 ## Leetcode questions
