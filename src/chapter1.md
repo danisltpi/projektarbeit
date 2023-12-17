@@ -10,8 +10,6 @@ Veröffentlicht wurde Code Llama am 24. August und ist, ein
 auf Programmiercode spezialisierte Version von Llama 2, welches durch
 ein erweitertes, längeres Training des bestehenden Code-Datensatzes entstand. [@IntroducingCodeLlama]
 
-Als Ergebnis, kann Code Llama Code generieren, und unterstützt zudem
-
 In dieser Projektarbeit wird Code Llama auf die beworbenen Fähigkeiten getestet
 und auf die Nutzbarkeit in der echten Welt geprüft.
 
@@ -32,7 +30,7 @@ Die Default-Variante ist die Standardvariante, die auf dem Datensatz, die vorher
 Bei der Python-Variante wurde mehr Python-Code zum feintunen verwendet, somit kann dieses Modell in der Theorie besser mit Python-Code umgehen.
 
 Bei der Instruct Variante handelt es sich um
-ein Modell, welches mit menschlichen Instruktions-Datensätzen
+ein Modell, welches mit menschlichen Instruktionsdatensätzen
 fein getunt worden ist. Man nennt dies dann
 aligned, dies bedeutet die Ausgabe des Modells ist konsistent zu dem, wie es ein Mensch erwarten würde und ermöglicht es dem Modell, z.B. auf
 Fragen zu antworten oder andere menschenähnliche
@@ -67,8 +65,8 @@ sich daher eher für Echtzeit Code-Completion
 eignen.
 
 Es gibt viele Sprachmodelle, oder genauer bezeichnet „Large Language Models“ (LLM), die
-in “Konkurrenz” mit Code Llama stehen wie z.B. GPT-4, die im selben oder auch anderen Bereichen besser performen können.
-Um das auzuwerten gibt es verschiedene Kennzahlen, um diese Perfomance messen.
+in „Konkurrenz“ mit Code Llama stehen wie z.B. GPT-4, die im selben oder auch anderen Bereichen besser performen können.
+Um das auszuwerten, gibt es verschiedene Kennzahlen, um diese Perfomance zu messen.
 
 In der Tabelle, die im Research Paper
 auftaucht, werden verschiedene
@@ -86,101 +84,3 @@ da Code Llama nur mit einem Bruchteil der Größe
 von GPT-4 (mindestens 1 Billion Parameter) bereits ähnlich gute Ergebnisse liefert.
 
 ![Code LLama im Vergleich zu anderen LLMs [@roziereCodeLlamaOpen]](assets/img/comparison.png)
-
-# Einrichtung von Code Llama
-
-Um Code Llama zu benutzen gibt es verschiedene Möglichkeiten.
-
-Die erste Möglichkeit wäre die Einrichtung von
-direkt aus dem Quellcode von Code Llama lokal auf z.B. dem eigenem Rechner.
-In der GitHub Repository von Code Llama [@GitHubCodellama2023]
-gibt es eine etwas detailliertere Anleitung wie
-dies funktioniert.
-Die Vorteile von solch einer lokalen Installation
-ist die unabhängigkeit von externen Servern,
-Offline nutzbarkeit und der damit verbundene
-Datenschutz.
-Jedoch läuft es nicht auf jedem Rechner gut
-aufgrund von hohen Systemanforderungen.
-Neben einem hohen Speicherbedarf (sowohl Festplatte als auch Arbeitsspeicher) ist auch ein
-performanter Prozessor nötig, um schnelle Ergebnisse
-zu erzielen.
-
-Eine alternative und einfachere Methode, um schnell
-Code Llama benutzen zu können sind Chatbots
-welche besonders Nutzerfreundlich sind, da man
-keine Einrichtung benötigt und man direkt mit der
-Eingabe von Prompts in einer intuitiven UI beginnen kann.
-Perplexity Labs [@PerplexityLabs] bietet u.a. einen Chatbot mit dem Code Llama 34b Instruct Modell an
-
-![Code Llama im Perplexity Labs Chatbot](assets/img/labs.png)
-
-Aufgrund von Hardware Limitierung
-wird daher der angebotene Chatbot
-mit Code Llama genutzt, um es
-in dieser Projektarbeit zu testen.
-
-# Durchführung
-
-Um die Fähigkeiten der Code- und Sprachgenerierung von Code Llama auszuprobieren und zu testen,
-könnten folgende Usecases Interessant sein:
-
-- Generierung von Code anhand einer Beschreibung in natürlicher Sprache
-- Code Reviews
-- Dokumentation
-- Verbessern von bestehendem Code (Refactoring)
-- Zusammenfassung von Code
-- Potenzielle Bugs erkennen und Hilfestellung bei Debugging leisten
-
-## Generierung von Code
-
-Der wohl am naheliegenste
-Use-case ist die Generierung von
-Code anhand eines Prompts in natürlicher
-Sprache.
-
-Folgende Ergebnisse wurden erzielt:
-
-```
-Prompt:
-Generiere Code
-```
-
-```
-Antwort:
-Here is a function that returns the n’th Fibonacci number:
-def fibonacci(n):
-if n <= 1:
-return n
-else:
-return fibonacci(n-1) + fibonacci(n-2)
-
-This function uses a recursive approach to calculate
-the Fibonacci number.
-It starts by checking if n is less than or equal
-to 1, in which case the function returns n.
-Otherwise, it calculates the Fibonacci number by
-adding the previous two Fibonacci numbers together.
-Here’s an example of how to use this function:
-print(fibonacci(5)) # prints 5
-print(fibonacci(10)) # prints 55
-It’s worth noting that this function is not very
-efficient, as it calculates the same Fibonacci
-numbers multiple times. A more efficient approach
-would be to use dynamic programming to store the
-results of previous calculations and reuse them.
-```
-
-# Vergleich mit anderen Chatbots
-
-# Ergebnisse
-
-# Fazit
-
-\newpage \setlength\parindent{0pt}
-
-# Referenzen
-
-```
-
-```

@@ -2,6 +2,6 @@
   "name": "writing-template",
   "version": "1.0.0",
   "scripts": {
-    "pdf": "pandoc --template=default.tex --citeproc -H header.tex default.yaml src/chapter1.md -o dist/out.pdf"
+    "pdf": "pandoc --template=default.tex --citeproc -H header.tex default.yaml src/*.md -o dist/out.pdf"
   }
 }

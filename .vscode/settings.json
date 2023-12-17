@@ -1,5 +1,8 @@
 {
   "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+    "aligned",
+    "code-completion",
+    "instruktionsdatensätzen",
     "language",
     "large"
   ]
