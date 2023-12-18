@@ -112,5 +112,14 @@ print(lengthOfLongestSubstring("bbbbb"))     # Output: 1
 print(lengthOfLongestSubstring("pwwkew"))    # Output: 3
 ```
 
-_This function uses a sliding window approach to iterate through the string, maintaining a substring without repeating characters.
-The char_index dictionary keeps track of the index of each character in the substring. If a repeating character is found, the start index is updated to the next index of the repeating character. The maximum length of the substring without repeating characters is updated during each iteration._
+_This function uses a sliding window approach to iterate through the string, maintaining a substring without repeating characters. The char_index dictionary keeps track of the index of each character in the substring. If a repeating character is found, the start index is updated to the next index of the repeating character. The maximum length of the substring without repeating characters is updated during each iteration._
+
+Die Lösung von ChatGPT ist vollkommen korrekt und wurde von LeetCode akzeptiert,
+da sie alle Tests besteht. Zudem ist der Code optimiert und
+hat lediglich eine Laufzeitkomplexität von $O(n)$ wobei $n$ die Länge der
+Eingabezeichenfolge ist.
+
+Auch in diesem Vergleich hat ChatGPT die bessere Antwort geliefert,
+welches dafür spricht, dass Code Llama, zumindest in diesem
+Use Case, bei der man nur diese eine Frage stellt, ohne viel Kontext zu bieten
+dem aktuellen Marktführer noch nicht ebenwürtig ist.
