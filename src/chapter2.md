@@ -149,7 +149,8 @@ Nach hindeuten auf diesen Fehler,
 dass der Code nicht optimiert war,
 kam dieselbe Antwort noch einmal.
 
-### Im Vergleich zu ChatGPT (GPT 3.5)
+Um die Leistung zu vergleichen, wird dieselbe Frage auch ChatGPT gestellt,
+welches mit dem GPT 3.5 Modell angetrieben wird.
 
 **Prompt:**
 write a function that returns the n’th fibonacci number
