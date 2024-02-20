@@ -1,14 +1,8 @@
-def calculate_average(numbers):
-    total = 0
-    count = 0
+def multiply_numbers(x, y):
+    result = x * y
+    return result
 
-    for number in numbers:
-        total += number
-        count += 1
+num1 = 5
+num2 = '2'
 
-    average = total / count
-    return average
-
-numbers = [1, 2, 3, 4, 5]
-result = calculate_average(numbers)
-print("The average is: ", result)
+print(multiply_numbers(num1, num2))
