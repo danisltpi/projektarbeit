@@ -1,19 +1,14 @@
-def lengthOfLongestSubstring(s: str) -> int:
-    max_length = 0
-    current_length = 0
-    start_index = 0
-    end_index = 0 
+def calculate_average(numbers):
+    total = 0
+    count = 0
 
-    for i in range(len(s)):
-        if s[i] in s[start_index:end_index]:
-            start_index = end_index + 1
-        else:
-            end_index = i
-            current_length = end_index - start_index + 1
-            if current_length > max_length:
-                max_length = current_length
-        
-    
-    return max_length
+    for number in numbers:
+        total += number
+        count += 1
 
-print(lengthOfLongestSubstring('bbbbbb'))
+    average = total / count
+    return average
+
+numbers = [1, 2, 3, 4, 5]
+result = calculate_average(numbers)
+print("The average is: ", result)

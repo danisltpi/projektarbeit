@@ -36,10 +36,9 @@ könnten folgende Use Cases interessant sein:
 
 - Generierung von Code anhand einer Beschreibung in natürlicher Sprache
 - Code Reviews
-- Dokumentation
 - Verbessern von bestehendem Code (Refactoring)
-- Zusammenfassung von Code
 - Potenzielle Bugs erkennen und Hilfestellung bei Debugging leisten
+- Dokumentation durch z.B. Zusammenfassung und Erklärung von Code
 
 # Generierung von Code
 
