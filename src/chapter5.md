@@ -4,7 +4,7 @@
 
 Wir möchten Code Llama nun testen wie gut es darin ist,
 gegebenen Code zu bewerten und Verbesserungsvorschläge zu geben.
-Gegebenen sei ein erfundendes Snippet, welches kein Teil einer
+Gegebenen sei ein erfundenes Snippet, welches kein Teil einer
 Applikation in der echten Welt ist:
 
 ```python
@@ -124,13 +124,13 @@ def calculate_product(x, y, z):
     return product
 ```
 
-Code Llama hat erkannt, dass der Code nur schlecht leserlisch ist.
-Zudem hat es verstanden, um was es in diesem Snippet geht und erklärungen dazu
-abgegeben. Deshalb ist erstmal Code Llama gut für Code Reviews, bei dem  
+Code Llama hat erkannt, dass der Code nur schlecht leserlich ist.
+Zudem hat es verstanden, worum es in diesem Snippet geht und Erklärungen dazu
+abgegeben. Deshalb ist erstmal Code Llama gut für Code Reviews, bei dem 
 es um Codequalität und Sicherheit geht geeignet.
 
 Im Vergleich dazu hat ChatGPT ein etwas schlechteres Ergebnis erzielt, da
-es mit dem selben Prompt weniger Verbesserungsvorschläge, die Qualitativ
+es mit demselben Prompt weniger Verbesserungsvorschläge, die Qualitativ
 nicht so hochwertig sind, geliefert hat
 und auch nicht erklärt hat, worum es in dem Code geht.
 
