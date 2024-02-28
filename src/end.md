@@ -15,7 +15,7 @@ Lösung.
 Man den sollte den Begriff open-source in Kontext
 von Code Llama auch mit Vorsicht genießen,
 denn Llama 2 und somit auch Code LLama ist unter
-einer eigenen Softwarelizenz von Meta lizenziert, welche nicht von der Open Source Initiative akzeptiert.
+einer eigenen Softwarelizenz von Meta lizenziert, welche nicht von der Open Source Initiative akzeptiert wird.
 Diese Lizenz bringt folgende Restriktionen mit sich:
 
 1. _You will not use the Llama Materials or any output or results of the
@@ -30,7 +30,7 @@ Diese Lizenz bringt folgende Restriktionen mit sich:
    rights under this Agreement unless or until Meta otherwise expressly grants you
    such rights._
 
-**Update vom 27.12**:
+**Update vom 27.02**:
 
 Es gibt mittlerweile
 eine 70B-Version von Code Llama, die am 29.01.2024
