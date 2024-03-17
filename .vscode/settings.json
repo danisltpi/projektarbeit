@@ -2,10 +2,12 @@
   "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
     "aligned",
     "code-completion",
+    "humaneval",
     "instruktionsdatensätzen",
     "javadoc",
     "language",
     "large",
-    "leetcode"
+    "leetcode",
+    "metas"
   ]
 }

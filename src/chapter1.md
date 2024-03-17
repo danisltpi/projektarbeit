@@ -66,7 +66,7 @@ eignen.
 
 Es gibt viele Sprachmodelle, oder genauer bezeichnet „Large Language Models“ (LLM), die
 in „Konkurrenz“ mit Code Llama stehen wie z.B. GPT-4, die im selben oder auch anderen Bereichen besser performen können.
-Um das auszuwerten, gibt es verschiedene Kennzahlen, um diese Perfomance zu messen.
+Um das auszuwerten, gibt es verschiedene Kennzahlen, um diese Performance zu messen.
 
 In der Tabelle, die im Research Paper
 auftaucht, werden verschiedene
@@ -77,8 +77,8 @@ in der Evaluation performt.
 
 Code Llama - Python 34b hat beispielsweise
 bei der Pass@1 HumanEval Kategorie ein
-Ergebnis von 53,7% erreicht, während
-GPT-4, das beste Modell in dieser Kategorie, 67% erreicht hat. Das ist in anbetracht der Größe
+Ergebnis von 53,7 % erreicht, während
+GPT-4, das beste Modell in dieser Kategorie, 67 % erreicht hat. Das ist in Anbetracht der Größe
 der jeweiligen Modelle äußerst bemerkenswert,
 da Code Llama nur mit einem Bruchteil der Größe
 von GPT-4 (mindestens 1 Billion Parameter) bereits ähnlich gute Ergebnisse liefert.

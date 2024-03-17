@@ -113,7 +113,7 @@ _This code uses a list to store the Fibonacci numbers as they are calculated, so
 Der neue generierte Code ist auch korrekt und läuft zudem wesentlich schneller, was somit die Anforderungen erfüllt.
 
 Da die Lösung jedoch nicht mehr rekursiv ist,
-stellt sich die Frage ob Code Llama dieselbe
+stellt sich die Frage, ob Code Llama dieselbe
 Funktion nochmal rekursiv und optimiert implementieren kann
 
 **Prompt:** give me an recursive and optimized solution

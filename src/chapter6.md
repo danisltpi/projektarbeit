@@ -150,7 +150,7 @@ _You can customize this Javadoc comment section to fit your specific needs and p
 _It’s important to keep your Javadoc comment sections up to date and accurate, as they can help other developers understand how to use your code and can make your code more maintainable and readable._
 
 Was auffällig an diesem Ergebnis ist,
-ist, dass eine Methodensignatur „erfunden“” wurde,
+ist, dass eine Methodensignatur „erfunden“ wurde,
 die im ursprünglichen Prompt gar nicht zu finden war.
 Zusätzlich ist diese Syntax in TypeScript
 nicht korrekt und ähnelt eher Java Code.

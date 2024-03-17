@@ -1,6 +1,6 @@
 ## Todo-App
 
-Als letztes möchten wir noch Code-Generierung
+Als Letztes möchten wir noch Code-Generierung
 bzgl. Web-Entwicklung ausprobieren, bei dem die Aufgabenstellung ist,
 eine einfache Todo-App zu entwickeln,
 in der man Aufgaben erstellen kann,

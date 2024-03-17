@@ -1,7 +1,7 @@
 ## LeetCode
 
 LeetCode [@LeetCodeWorldLeading] ist eine Online-Plattform, auf der man z.B. zur Vorbereitung
-auf technische Interviews, Algorithmusprobleme gestellt bekommt und diese lösen kann.
+auf technische Interviews, Algorithmus-Probleme gestellt bekommt und diese lösen kann.
 
 Code Llama soll eine mittelschwere Aufgabe lösen, in der es darum geht,
 die Länge der längsten Teilzeichenfolge (in der die sich Zeichen nicht wiederholen
@@ -121,5 +121,5 @@ Eingabezeichenfolge ist.
 
 Auch in diesem Vergleich hat ChatGPT die bessere Antwort geliefert,
 welches dafür spricht, dass Code Llama, zumindest in diesem
-Use Case, bei der man nur diese eine Frage stellt, ohne viel Kontext zu bieten
-dem aktuellen Marktführer noch nicht ebenwürtig ist.
+Use Case, bei der man nur diese eine Frage stellt, ohne viel Kontext zu bieten,
+dem aktuellen Marktführer noch nicht ebenbürtig ist.

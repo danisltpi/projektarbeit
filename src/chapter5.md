@@ -126,7 +126,7 @@ def calculate_product(x, y, z):
 
 Code Llama hat erkannt, dass der Code nur schlecht leserlich ist.
 Zudem hat es verstanden, worum es in diesem Snippet geht und Erklärungen dazu
-abgegeben. Deshalb ist erstmal Code Llama gut für Code Reviews, bei dem 
+abgegeben. Deshalb ist erstmal Code Llama gut für Code Reviews, bei dem
 es um Codequalität und Sicherheit geht geeignet.
 
 Im Vergleich dazu hat ChatGPT ein etwas schlechteres Ergebnis erzielt, da
